@@ -36,6 +36,45 @@ Do not simply concatenate the three modules. Instead:
 4. Remove duplication.
 5. Compress into a structured, source-aware HRSB Web Driver Summary.
 
+## Output Quality Rules
+
+These rules are mandatory for every final report and JSON output.
+
+1. **JSON formatting**
+   - `output/HRSB_Web_Driver_Summary_Latest.json` must be valid JSON.
+   - It must be pretty-printed with 2-space indentation.
+   - Do not output the JSON as a single long line.
+   - Do not include markdown fences inside the `.json` file.
+
+2. **Source priority**
+   - Prefer primary sources first: BLS, Federal Reserve, US Treasury, TreasuryDirect, EIA, Cboe/CME, central banks, official statistical agencies.
+   - Use Reuters, AP, Financial Times, CNBC, WSJ, Bloomberg, MarketWatch, Investing.com as secondary confirmation and market-reaction sources.
+   - If only a secondary or tertiary source is available, explicitly mark that limitation in `data_gaps` or `source_quality_notes`.
+   - Do not use a third-party summary when an official primary source is reasonably available.
+
+3. **Data gaps**
+   - Be direct about missing or weak data.
+   - If spot VIX, VVIX, credit spreads, gamma, dealer positioning, CTA thresholds, or live option-flow data is not verified, say so.
+   - Never fill gaps with confident-sounding assumptions.
+
+4. **Watch Levels**
+   - Every watch level must include `asset`, `level`, `meaning`, and `basis`.
+   - `basis` must explain whether the level comes from an observed market price, a source-reported level, a psychological threshold, an event threshold, or downstream HRSB technical data needed later.
+   - If a watch level is approximate, say approximate.
+
+5. **HRSB handoff**
+   - Always populate `hrsb_portfolio_relevance_without_private_data.what_to_feed_into_final_hrsb`.
+   - This list should be compact and directly usable by downstream HRSB, e.g. `primary_driver`, `risk_mode`, key watch levels, data gaps, and confidence warnings.
+   - Do not make the final Maintain / Defend / Harvest / Rebalance / Attack decision here.
+
+6. **No false precision**
+   - Intraday market levels may change. Mark them as observed at generation time, source-reported, or approximate.
+   - If the timing of a quote is unclear, do not treat it as exact.
+
+7. **Driver over news**
+   - The final report must explain why the market is moving, not just what headlines exist.
+   - Prioritize cross-asset confirmation: rates, equity, VIX/volatility, FX, commodities, and credit where available.
+
 ## Required Final Markdown Structure
 
 ```markdown
@@ -104,7 +143,7 @@ One clear paragraph: "今は〇〇を見る相場です。"
 ```
 
 ## Required JSON Schema
-The JSON must be compact, machine-readable, and stable for downstream HRSB ingestion.
+The JSON must be compact, machine-readable, stable for downstream HRSB ingestion, and pretty-printed with 2-space indentation.
 
 ```json
 {
@@ -163,7 +202,14 @@ The JSON must be compact, machine-readable, and stable for downstream HRSB inges
     "month_end_index_rebalance": ""
   },
   "trap_risks": [],
-  "watch_levels": [],
+  "watch_levels": [
+    {
+      "asset": "",
+      "level": "",
+      "meaning": "",
+      "basis": ""
+    }
+  ],
   "next_24_72h_scenarios": [],
   "hrsb_portfolio_relevance_without_private_data": {
     "vix_portfolio_impact_channels": [],
@@ -188,6 +234,7 @@ The JSON must be compact, machine-readable, and stable for downstream HRSB inges
 - Repeated topics across modules must be merged once.
 - Preserve traceability: each major fact should have a source reference or source note.
 - If information is stale, missing, conflicting, or only indirectly sourced, state that clearly.
+- The markdown report may be explanatory for Hiro, but the JSON must remain compact and stable.
 
 ## HRSB Relevance Rule
 The report may discuss relevance to Hiro's VIX / SPX / rates / credit / volatility strategy, but it must not use or infer private portfolio data. Use wording such as:
