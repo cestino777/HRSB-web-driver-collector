@@ -1,0 +1,581 @@
+{
+  "schema_version": "1.0",
+  "report_type": "HRSB_Web_Driver_Summary",
+  "generated_at_utc": "2026-06-05T17:25:00Z",
+  "coverage_window": {
+    "start_utc": "2026-06-04T00:00:00Z",
+    "end_utc": "2026-06-05T17:25:00Z",
+    "description": "Public market-driver information from yesterday to now."
+  },
+  "market_session_context": {
+    "current_session_date": "2026-06-05",
+    "previous_session_date": "2026-06-04",
+    "market_status_at_generation": "regular_session",
+    "holiday_or_special_session_notes": []
+  },
+  "executive_summary": {
+    "one_sentence_summary": "US equities shifted from Thursday's lower-oil/lower-yield broadening rally to Friday's tech-led selloff as a strong May payrolls report repriced Fed expectations higher, lifted yields and the dollar, pressured gold, and raised volatility risk.",
+    "top_drivers": [
+      {
+        "rank": 1,
+        "driver": "May payrolls upside surprise and upward revisions",
+        "asset_classes_affected": [
+          "equities",
+          "volatility",
+          "rates",
+          "fx",
+          "commodities"
+        ],
+        "fact_summary": "BLS reported +172k May payrolls, 4.3% unemployment, +0.3% m/m average hourly earnings, and +93k combined upward revisions to March/April.",
+        "interpretation": "The report challenged Fed-easing expectations and made front-end rate repricing the central transmission channel.",
+        "confidence": "high",
+        "confidence_notes": "BLS and AP/Reuters sources directly support the fact pattern.",
+        "sources": [
+          {
+            "title": "The Employment Situation - May 2026",
+            "publisher": "BLS",
+            "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+            "published_at": "2026-06-05T12:30:00Z"
+          },
+          {
+            "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+            "publisher": "AP",
+            "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+            "published_at": "2026-06-05T16:11:00Z"
+          },
+          {
+            "title": "Instant View: Strong May jobs number sends yields, rate expectations higher",
+            "publisher": "Reuters via Yahoo Finance",
+            "url": "https://finance.yahoo.com/news/instant-view-strong-may-jobs-131442295.html",
+            "published_at": "2026-06-05T13:32:00Z"
+          }
+        ]
+      },
+      {
+        "rank": 2,
+        "driver": "Higher Treasury yields and Fed-hike odds",
+        "asset_classes_affected": [
+          "rates",
+          "equities",
+          "fx",
+          "gold",
+          "volatility"
+        ],
+        "fact_summary": "AP/Reuters cited 2-year yields around 4.15%-4.16% and 10-year yields around 4.54% after payrolls; Reuters cited December tightening odds near 65% vs 48% before the report.",
+        "interpretation": "Rate-sensitive tech/growth valuations and non-yielding gold were the clearest cross-asset pressure points.",
+        "confidence": "high",
+        "confidence_notes": "Multiple public sources aligned on direction and approximate levels.",
+        "sources": [
+          {
+            "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+            "publisher": "AP",
+            "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+            "published_at": "2026-06-05T16:11:00Z"
+          },
+          {
+            "title": "Instant View: Strong May jobs number sends yields, rate expectations higher",
+            "publisher": "Reuters via Yahoo Finance",
+            "url": "https://finance.yahoo.com/news/instant-view-strong-may-jobs-131442295.html",
+            "published_at": "2026-06-05T13:32:00Z"
+          },
+          {
+            "title": "Gold falls over 2% as robust US jobs data cements bets on higher rates",
+            "publisher": "Reuters via MarketScreener",
+            "url": "https://uk.marketscreener.com/news/gold-heads-for-weekly-loss-on-fading-middle-east-peace-hopes-ce7f5ddddc8ef626",
+            "published_at": "2026-06-05T14:15:00Z"
+          }
+        ]
+      },
+      {
+        "rank": 3,
+        "driver": "Tech/AI concentration underperformed",
+        "asset_classes_affected": [
+          "equities",
+          "volatility"
+        ],
+        "fact_summary": "AP reported Nasdaq underperformed the S&P 500 Friday and cited sharp losses in Nvidia and Broadcom at midday.",
+        "interpretation": "The index decline was amplified by megacap/semiconductor weight rather than clearly uniform broad-market liquidation.",
+        "confidence": "medium",
+        "confidence_notes": "Intraday breadth can change before close.",
+        "sources": [
+          {
+            "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+            "publisher": "AP",
+            "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+            "published_at": "2026-06-05T16:11:00Z"
+          }
+        ]
+      },
+      {
+        "rank": 4,
+        "driver": "Oil relief versus geopolitical/inflation backdrop",
+        "asset_classes_affected": [
+          "commodities",
+          "rates",
+          "equities",
+          "volatility"
+        ],
+        "fact_summary": "AP reported Brent fell Thursday and Friday but remained far above pre-war levels noted in the article.",
+        "interpretation": "Oil weakness helped Thursday but did not offset Friday's labor/rate shock; Middle East headlines remain weekend gap risk.",
+        "confidence": "medium",
+        "confidence_notes": "Oil price direction is sourced; geopolitical path is uncertain.",
+        "sources": [
+          {
+            "title": "Dow hits a record as falling oil and yields boost banks and small-company stocks",
+            "publisher": "AP",
+            "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-cb4ab2243ffaf300b61f1ad6985d4456",
+            "published_at": "2026-06-04T20:23:00Z"
+          },
+          {
+            "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+            "publisher": "AP",
+            "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+            "published_at": "2026-06-05T16:11:00Z"
+          }
+        ]
+      }
+    ]
+  },
+  "what_changed_from_previous_session": [
+    {
+      "topic": "Equity leadership",
+      "previous_state": "Dow record, banks/small caps led, S&P +0.4%, Nasdaq -0.1%.",
+      "current_state": "Tech-led drawdown with S&P/Nasdaq lower and Nasdaq underperforming.",
+      "why_it_matters": "Leadership narrowed into rate-sensitive high-valuation weakness.",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Dow hits a record as falling oil and yields boost banks and small-company stocks",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-cb4ab2243ffaf300b61f1ad6985d4456",
+          "published_at": "2026-06-04T20:23:00Z"
+        },
+        {
+          "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+          "published_at": "2026-06-05T16:11:00Z"
+        }
+      ]
+    },
+    {
+      "topic": "Rates",
+      "previous_state": "10-year yield dipped to 4.47% as oil fell.",
+      "current_state": "2-year/10-year yields jumped after payrolls, with 10-year around 4.54% and 2-year around 4.15%-4.16%.",
+      "why_it_matters": "Fed-policy repricing became the main driver.",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+          "published_at": "2026-06-05T16:11:00Z"
+        },
+        {
+          "title": "Instant View: Strong May jobs number sends yields, rate expectations higher",
+          "publisher": "Reuters via Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/instant-view-strong-may-jobs-131442295.html",
+          "published_at": "2026-06-05T13:32:00Z"
+        }
+      ]
+    },
+    {
+      "topic": "Volatility",
+      "previous_state": "VIX close snapshot around 15.39 Thursday.",
+      "current_state": "VIX higher intraday Friday alongside SPX/Nasdaq weakness.",
+      "why_it_matters": "Low-volatility positioning backdrop increases market-structure risk, without asserting actual flows.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "U.S. stocks mixed at close of trade; Dow Jones Industrial Average up 1.73%",
+          "publisher": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-173-4727448",
+          "published_at": "2026-06-04T20:30:00Z"
+        }
+      ]
+    }
+  ],
+  "asset_context": {
+    "spx": {
+      "facts": [
+        "Thursday S&P 500 rose 0.4% to 7,584.31.",
+        "Friday AP midday report showed S&P 500 down 1.6%; public SPY snapshot near generation was down about 1.85%."
+      ],
+      "interpretations": [
+        "SPX weakness was mainly a rate/megacap concentration event rather than a confirmed broad credit-stress event."
+      ],
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Dow hits a record as falling oil and yields boost banks and small-company stocks",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-cb4ab2243ffaf300b61f1ad6985d4456",
+          "published_at": "2026-06-04T20:23:00Z"
+        },
+        {
+          "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+          "published_at": "2026-06-05T16:11:00Z"
+        }
+      ]
+    },
+    "nasdaq": {
+      "facts": [
+        "Thursday Nasdaq slipped 0.1%.",
+        "Friday AP reported Nasdaq down 2.6% midday; public QQQ snapshot near generation was down about 3.57%."
+      ],
+      "interpretations": [
+        "Nasdaq underperformance is consistent with higher-rate pressure on long-duration growth/AI leadership."
+      ],
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Dow hits a record as falling oil and yields boost banks and small-company stocks",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-cb4ab2243ffaf300b61f1ad6985d4456",
+          "published_at": "2026-06-04T20:23:00Z"
+        },
+        {
+          "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+          "published_at": "2026-06-05T16:11:00Z"
+        }
+      ]
+    },
+    "vix_volatility": {
+      "facts": [
+        "Thursday VIX close snapshot was down 4.17% to 15.39.",
+        "Friday public commentary cited VIX higher intraday."
+      ],
+      "interpretations": [
+        "Volatility risk increased from a low base; monitor persistence and term structure."
+      ],
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "U.S. stocks mixed at close of trade; Dow Jones Industrial Average up 1.73%",
+          "publisher": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-173-4727448",
+          "published_at": "2026-06-04T20:30:00Z"
+        }
+      ]
+    },
+    "rates": {
+      "facts": [
+        "2-year and 10-year Treasury yields jumped after payrolls; AP cited 2-year 4.16% and 10-year 4.54%."
+      ],
+      "interpretations": [
+        "Front-end movement indicates Fed-expectations repricing."
+      ],
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+          "published_at": "2026-06-05T16:11:00Z"
+        },
+        {
+          "title": "Instant View: Strong May jobs number sends yields, rate expectations higher",
+          "publisher": "Reuters via Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/instant-view-strong-may-jobs-131442295.html",
+          "published_at": "2026-06-05T13:32:00Z"
+        }
+      ]
+    },
+    "credit": {
+      "facts": [
+        "Same-day public credit-spread data was not found; available high-yield OAS references were lagged."
+      ],
+      "interpretations": [
+        "No strong same-day evidence of acute spread stress in this run; monitor if higher yields tighten financial conditions."
+      ],
+      "confidence": "low",
+      "sources": [
+        {
+          "title": "ICE BofA US High Yield Index Option-Adjusted Spread",
+          "publisher": "FRED",
+          "url": "https://fred.stlouisfed.org/graph/?g=qV1C",
+          "published_at": "2026-05-22T00:00:00Z"
+        }
+      ]
+    },
+    "fx": {
+      "facts": [
+        "Public UUP snapshot near generation was up about 0.65%; Investing.com showed US Dollar Index futures down 0.08% Thursday."
+      ],
+      "interpretations": [
+        "Friday dollar strength fits the higher-yield/Fed-repricing channel."
+      ],
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "U.S. stocks mixed at close of trade; Dow Jones Industrial Average up 1.73%",
+          "publisher": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-173-4727448",
+          "published_at": "2026-06-04T20:30:00Z"
+        }
+      ]
+    },
+    "commodities": {
+      "facts": [
+        "AP reported Brent lower Thursday and Friday; Reuters reported spot gold down 2.4% Friday after jobs data."
+      ],
+      "interpretations": [
+        "Oil relief was outweighed by rates for equities; gold was pressured by higher opportunity cost and dollar strength."
+      ],
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Dow hits a record as falling oil and yields boost banks and small-company stocks",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-cb4ab2243ffaf300b61f1ad6985d4456",
+          "published_at": "2026-06-04T20:23:00Z"
+        },
+        {
+          "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+          "published_at": "2026-06-05T16:11:00Z"
+        },
+        {
+          "title": "Gold falls over 2% as robust US jobs data cements bets on higher rates",
+          "publisher": "Reuters via MarketScreener",
+          "url": "https://uk.marketscreener.com/news/gold-heads-for-weekly-loss-on-fading-middle-east-peace-hopes-ce7f5ddddc8ef626",
+          "published_at": "2026-06-05T14:15:00Z"
+        }
+      ]
+    },
+    "options_flow_market_structure": {
+      "facts": [
+        "VIX moved from a mid-teens Thursday close snapshot to higher levels Friday intraday with equity weakness.",
+        "No direct source was found showing actual dealer/CTA/vol-control/risk-parity trading."
+      ],
+      "interpretations": [
+        "Treat short-dated hedging and vol-sensitive rebalancing only as market-structure risks, not confirmed flows."
+      ],
+      "flow_risk_language": "Use market-structure risk or likely flow risk unless actual trading is source-supported.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "U.S. stocks mixed at close of trade; Dow Jones Industrial Average up 1.73%",
+          "publisher": "Investing.com",
+          "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-173-4727448",
+          "published_at": "2026-06-04T20:30:00Z"
+        }
+      ]
+    }
+  },
+  "headline_vs_actual_driver": [
+    {
+      "headline_narrative": "Stocks fell because jobs were strong.",
+      "actual_or_more_likely_driver": "The strong jobs report mattered because it repriced Fed expectations, lifted yields, and pressured rate-sensitive tech leadership.",
+      "evidence": [
+        "Payrolls +172k; revisions +93k.",
+        "2-year/10-year yields jumped.",
+        "Nasdaq underperformed SPX."
+      ],
+      "interpretation": "Rates were the central transmission channel.",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "The Employment Situation - May 2026",
+          "publisher": "BLS",
+          "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+          "published_at": "2026-06-05T12:30:00Z"
+        },
+        {
+          "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+          "published_at": "2026-06-05T16:11:00Z"
+        },
+        {
+          "title": "Instant View: Strong May jobs number sends yields, rate expectations higher",
+          "publisher": "Reuters via Yahoo Finance",
+          "url": "https://finance.yahoo.com/news/instant-view-strong-may-jobs-131442295.html",
+          "published_at": "2026-06-05T13:32:00Z"
+        }
+      ]
+    },
+    {
+      "headline_narrative": "Lower oil should be bullish for equities.",
+      "actual_or_more_likely_driver": "Lower oil helped Thursday, but Friday's payroll/rates shock dominated while geopolitical energy risk remained active.",
+      "evidence": [
+        "Brent lower both days; equities rallied Thursday and fell Friday after payrolls."
+      ],
+      "interpretation": "Oil was an offset, not the dominant driver.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Dow hits a record as falling oil and yields boost banks and small-company stocks",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-cb4ab2243ffaf300b61f1ad6985d4456",
+          "published_at": "2026-06-04T20:23:00Z"
+        },
+        {
+          "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+          "published_at": "2026-06-05T16:11:00Z"
+        }
+      ]
+    }
+  ],
+  "risk_events_24_72h": [
+    {
+      "event_name": "Friday close and weekend gap-risk window",
+      "scheduled_time_utc": "2026-06-05T20:00:00Z",
+      "event_type": "liquidity",
+      "expected_relevance": "Potential amplification if payroll repricing persists into the close and geopolitical/oil headlines arrive over the weekend.",
+      "volatility_relevance": "Relevant for SPX/VIX gap and term-structure risk.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+          "publisher": "AP",
+          "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+          "published_at": "2026-06-05T16:11:00Z"
+        }
+      ]
+    },
+    {
+      "event_name": "Fed statistical releases: H.15, CP, H.10",
+      "scheduled_time_utc": "2026-06-08T17:00:00Z",
+      "event_type": "central_bank",
+      "expected_relevance": "Confirmation context for rates, commercial paper, and FX after payrolls.",
+      "volatility_relevance": "Low to medium; mostly context unless funding/rates data surprise.",
+      "confidence": "high",
+      "sources": [
+        {
+          "title": "Federal Reserve Board - Calendar: June 2026",
+          "publisher": "Federal Reserve",
+          "url": "https://www.federalreserve.gov/newsevents/2026-june.htm",
+          "published_at": "2025-06-24T00:00:00Z"
+        }
+      ]
+    },
+    {
+      "event_name": "Treasury coupon-supply setup for June auctions",
+      "scheduled_time_utc": null,
+      "event_type": "treasury_supply",
+      "expected_relevance": "Higher post-payroll yields can increase sensitivity to auction demand and tails; official auction dates should be rechecked before use.",
+      "volatility_relevance": "Medium for rates-led equity/volatility transmission.",
+      "confidence": "medium",
+      "sources": [
+        {
+          "title": "Quarterly Refunding Statement of Deputy Assistant Secretary for Federal Finance Brian Smith",
+          "publisher": "US Treasury",
+          "url": "https://home.treasury.gov/news/press-releases/sb0489",
+          "published_at": "2026-05-06T00:00:00Z"
+        }
+      ]
+    }
+  ],
+  "vix_portfolio_strategy_relevance": {
+    "public_context_only": true,
+    "summary": "Public context points to higher VIX/market-structure monitoring needs after payrolls repriced yields higher from a low-volatility, record/high-index backdrop.",
+    "possible_implications_without_recommendation": [
+      "Monitor whether SPX/Nasdaq weakness broadens beyond megacap tech.",
+      "Monitor VIX term structure and spot VIX persistence.",
+      "Monitor 2-year Treasury/Fed-hike odds as the core transmission channel.",
+      "Monitor oil and Middle East headlines for weekend gap risk."
+    ],
+    "risks_to_monitor": [
+      "Rates repricing",
+      "Tech concentration",
+      "Oil/geopolitical headlines",
+      "Short-dated options market-structure risk",
+      "Credit spread latency"
+    ],
+    "not_trading_advice": true
+  },
+  "source_log": [
+    {
+      "title": "The Employment Situation - May 2026",
+      "publisher": "BLS",
+      "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm",
+      "published_at": "2026-06-05T12:30:00Z",
+      "accessed_at_utc": "2026-06-05T17:25:00Z",
+      "notes": "Payrolls, unemployment, wages, revisions."
+    },
+    {
+      "title": "Dow hits a record as falling oil and yields boost banks and small-company stocks",
+      "publisher": "AP",
+      "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-cb4ab2243ffaf300b61f1ad6985d4456",
+      "published_at": "2026-06-04T20:23:00Z",
+      "accessed_at_utc": "2026-06-05T17:25:00Z",
+      "notes": "Thursday market context."
+    },
+    {
+      "title": "Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates",
+      "publisher": "AP",
+      "url": "https://apnews.com/article/stocks-markets-iran-oil-trump-b5e10863b81cb1d6399f688ad8885c46",
+      "published_at": "2026-06-05T16:11:00Z",
+      "accessed_at_utc": "2026-06-05T17:25:00Z",
+      "notes": "Friday intraday equity/rates/oil context."
+    },
+    {
+      "title": "Instant View: Strong May jobs number sends yields, rate expectations higher",
+      "publisher": "Reuters via Yahoo Finance",
+      "url": "https://finance.yahoo.com/news/instant-view-strong-may-jobs-131442295.html",
+      "published_at": "2026-06-05T13:32:00Z",
+      "accessed_at_utc": "2026-06-05T17:25:00Z",
+      "notes": "Rates and Fed expectations after payrolls."
+    },
+    {
+      "title": "Gold falls over 2% as robust US jobs data cements bets on higher rates",
+      "publisher": "Reuters via MarketScreener",
+      "url": "https://uk.marketscreener.com/news/gold-heads-for-weekly-loss-on-fading-middle-east-peace-hopes-ce7f5ddddc8ef626",
+      "published_at": "2026-06-05T14:15:00Z",
+      "accessed_at_utc": "2026-06-05T17:25:00Z",
+      "notes": "Gold, yields, higher-for-longer rates."
+    },
+    {
+      "title": "U.S. stocks mixed at close of trade; Dow Jones Industrial Average up 1.73%",
+      "publisher": "Investing.com",
+      "url": "https://www.investing.com/news/stock-market-news/us-stocks-mixed-at-close-of-trade-dow-jones-industrial-average-up-173-4727448",
+      "published_at": "2026-06-04T20:30:00Z",
+      "accessed_at_utc": "2026-06-05T17:25:00Z",
+      "notes": "Thursday breadth, VIX, commodities, FX close snapshot."
+    },
+    {
+      "title": "Federal Reserve Board - Calendar: June 2026",
+      "publisher": "Federal Reserve",
+      "url": "https://www.federalreserve.gov/newsevents/2026-june.htm",
+      "published_at": "2025-06-24T00:00:00Z",
+      "accessed_at_utc": "2026-06-05T17:25:00Z",
+      "notes": "Scheduled Fed statistical releases."
+    },
+    {
+      "title": "Quarterly Refunding Statement of Deputy Assistant Secretary for Federal Finance Brian Smith",
+      "publisher": "US Treasury",
+      "url": "https://home.treasury.gov/news/press-releases/sb0489",
+      "published_at": "2026-05-06T00:00:00Z",
+      "accessed_at_utc": "2026-06-05T17:25:00Z",
+      "notes": "Treasury coupon supply sizes and TGA/bill context."
+    },
+    {
+      "title": "ICE BofA US High Yield Index Option-Adjusted Spread",
+      "publisher": "FRED",
+      "url": "https://fred.stlouisfed.org/graph/?g=qV1C",
+      "published_at": "2026-05-22T00:00:00Z",
+      "accessed_at_utc": "2026-06-05T17:25:00Z",
+      "notes": "Credit-spread reference; same-day data limited."
+    }
+  ],
+  "quality_controls": {
+    "facts_interpretations_confidence_separated": true,
+    "no_trading_recommendations": true,
+    "no_private_portfolio_data_used": true,
+    "no_secrets_or_api_keys_included": true,
+    "no_unsupported_claims_of_actual_large_player_trading": true,
+    "limitations": [
+      "Generated intraday before Friday cash close; closing levels may differ.",
+      "Options-flow language is market-structure risk only, not confirmed trading.",
+      "Same-day credit-spread data was not found from a clean public source."
+    ]
+  }
+}
