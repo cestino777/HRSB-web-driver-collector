@@ -1,1 +1,384 @@
-{"schema_version":"2.0","report_type":"HRSB_Web_Driver_Summary","generated_at_utc":"2026-06-05T18:15:35Z","coverage_window":{"start_utc":"2026-06-04T00:00:00Z","end_utc":"2026-06-05T18:15:35Z","description":"Public market-driver research from yesterday to now; UTC date 2026-06-05."},"executive_driver_summary":{"market_sentiment":"Neutral to risk-off; strong labor data is being treated as hawkish Fed repricing rather than pure growth relief.","risk_mode":"risk_off","primary_driver":"US payroll upside surprise repricing Fed expectations higher, lifting yields and USD and pressuring high-duration tech/gold.","secondary_drivers":["AI/semiconductor crowded valuation risk","Middle East/oil inflation risk","USD/JPY 160 intervention/carry risk","Treasury auction supply before FOMC"],"what_changed_from_yesterday":"June 4 relief from lower oil/yields and broadening leadership shifted to June 5 Nasdaq-led weakness after NFP +172k and yield jump.","largest_trap":"Assuming strong jobs are automatically bullish for equities; today the market is pricing tighter financial conditions.","hrsb_relevance":"Relevant to VIX curve, SPX levels, rates, USD, credit and event-gap inputs; no private portfolio data used."},"market_lens":{"primary_market_subject":"Rates-driven market / Fed hawkish repricing","secondary_market_subjects":["AI/technology leadership risk","Oil/inflation risk","FX intervention/carry unwind risk"],"market_view":"Good macro news is being interpreted through Fed reaction-function risk; yields and USD are the main transmission channels.","change_from_previous_session":"From oil/yield relief and Dow/small-cap strength to NFP-driven yield shock and Nasdaq underperformance.","five_watch_points":[{"priority":1,"indicator":"US 10Y yield","level":"4.54%-4.60%","meaning":"valuation pressure on SPX/Nasdaq"},{"priority":2,"indicator":"US 2Y yield","level":"4.16%","meaning":"Fed repricing confirmation"},{"priority":3,"indicator":"SPX","level":"7584/7537/7500","meaning":"prior close/open/psychological support and short-option risk"},{"priority":4,"indicator":"Nasdaq Composite","level":"26831/26537","meaning":"AI-tech concentration risk"},{"priority":5,"indicator":"USDJPY and VIX futures","level":"160 and 20","meaning":"FX intervention/carry and volatility risk"}],"causal_chain":["NFP +172k and upward revisions","Fed cuts removed / hike risk repriced","2Y/10Y yields and USD rise","Gold and high-PER tech fall","SPX/Nasdaq and VIX risk become positioning-sensitive"],"confirmed_facts":[{"fact":"BLS reported May payrolls +172k, unemployment 4.3%, AHE +0.3% m/m and +3.4% y/y, prior two months +93k revisions.","source_id":"BLS-EMP-2026-06-05"},{"fact":"AP reported S&P -1.6%, Nasdaq -2.6%, Dow -0.7% at 12:11 ET and 2Y/10Y yield jumps after payrolls.","source_id":"AP-2026-06-05-STOCKS"},{"fact":"AP reported June 4 S&P +0.4%, Dow +1.7% record, Nasdaq -0.1%, Russell +1.4% amid lower oil/yields.","source_id":"AP-2026-06-04-STOCKS"}],"interpretations":["Primary driver is Fed/rates repricing, not general news flow.","Nasdaq underperformance suggests concentration/duration shock rather than confirmed credit stress.","Oil decline partially offsets inflation risk but does not override labor/wage signal."],"risk_scenarios":[{"scenario":"risk_on","condition":"10Y below 4.50% and Nasdaq recovers opening loss","reaction":"SPX stabilizes, VIX eases"},{"scenario":"neutral","condition":"10Y 4.50%-4.60% and SPX holds 7500s","reaction":"choppy rotation"},{"scenario":"risk_off","condition":"10Y above 4.60%, USDJPY holds above 160, Nasdaq breaks lows","reaction":"SPX downside and VIX futures rise"}],"hiro_attention_points":["Monitor rates before headlines.","Do not assume strong jobs are equity bullish.","Treat dealer/CTA/gamma language only as market-structure risk unless directly sourced."]},"global_market_update":{"fx":[{"asset":"USD","move":"higher","driver":"strong jobs/Fed repricing","source_id":"REUTERS-FX-2026-06-05"},{"asset":"USDJPY","move":"near/above 160","driver":"dollar strength and intervention watch","source_id":"REUTERS-FX-2026-06-05"}],"equity":{"us":[{"asset":"S&P 500","move":"-1.6% midday Jun 5","source_id":"AP-2026-06-05-STOCKS"},{"asset":"Nasdaq Composite","move":"-2.6% midday Jun 5","source_id":"AP-2026-06-05-STOCKS"},{"asset":"Dow","move":"+1.7% record Jun 4 then -0.7% midday Jun 5","source_id":"AP-2026-06-04-STOCKS/AP-2026-06-05-STOCKS"}],"europe":[{"asset":"STOXX 600","move":"-0.2% at open","source_id":"REUTERS-EUROPE-2026-06-05"}],"japan":[{"asset":"Nikkei","move":"second-session pullback from record area","source_id":"REUTERS-ASIA-2026-06-05"}]},"rates_and_bonds":[{"asset":"US 2Y","move":"to 4.16% from 4.04% pre-report","source_id":"AP-2026-06-05-STOCKS"},{"asset":"US 10Y","move":"to 4.54% from 4.50% pre-report","source_id":"AP-2026-06-05-STOCKS"},{"asset":"June coupon supply","move":"10Y $39bn, 20Y $13bn, 30Y $22bn planned","source_id":"TREASURY-QRA-2026-04-29"}],"commodities":[{"asset":"Brent","move":"$93.50 after prior $95.03, still above pre-war ~$70","source_id":"AP-2026-06-05-STOCKS"},{"asset":"Gold","move":"down more than 2%","source_id":"REUTERS-GOLD-2026-06-05"},{"asset":"US crude inventories","move":"-7.974mn bbl in week ending May 29 per EIA recap","source_id":"EIA-WPSR-2026-06-03"}],"crypto":[{"asset":"BTC","move":"not a primary HRSB driver today","source_id":"data_gap"}],"central_bank_policy_expectations":[{"topic":"Fed","detail":"AP reported market saw >60% chance of a Fed hike by year-end and little/no cut chance after jobs report.","source_id":"AP-2026-06-05-STOCKS"}],"critical_information":["June 16-17 FOMC is the next major policy window.","June 10 10-year auction is a rates-volatility checkpoint.","Middle East/oil headlines remain weekend gap risk."],"source_quality_notes":["Payrolls and Treasury supply are high-quality primary sources.","Spot VIX/VVIX/gamma/CTA thresholds are incomplete; flow comments are scenario risk only."]},"headline_vs_actual_driver":[{"headline":"Strong jobs","actual_driver":"Hawkish Fed repricing via rates/USD","evidence":"NFP +172k; 2Y/10Y yields rose; AP reported >60% year-end hike chance","confidence":"high"},{"headline":"AI stocks sold off","actual_driver":"Rate-duration and concentration risk in high valuation leadership","evidence":"Nasdaq underperformed; Nvidia/Broadcom fell; breadth not uniformly weak per AP","confidence":"medium_high"},{"headline":"Oil down","actual_driver":"Inflation relief is partial and offset by labor/wage strength","evidence":"Brent $93.50 but above pre-war ~$70; AHE +3.4% y/y","confidence":"medium"}],"cross_asset_confirmation":[{"asset":"Equity","direction":"SPX down, Nasdaq down more","driver_confirmation":"confirms rates/duration shock","notes":"not yet confirmed credit stress"},{"asset":"Rates","direction":"2Y and 10Y up","driver_confirmation":"strong confirmation","notes":"primary transmission"},{"asset":"FX","direction":"USD up, JPY weak near 160","driver_confirmation":"confirms","notes":"intervention/carry risk"},{"asset":"Commodities","direction":"gold down, Brent down but high","driver_confirmation":"mixed","notes":"gold confirms rates/USD; oil partly offsets"},{"asset":"Options/Volatility","direction":"VIX futures around 20","driver_confirmation":"medium confirmation","notes":"spot/gamma data gaps"},{"asset":"Credit","direction":"insufficient data","driver_confirmation":"not confirmed","notes":"credit stress not established"}],"flow_risk_map":{"treasury_auction_bond_supply":"Medium-high: June 10Y $39bn/20Y $13bn/30Y $22bn plus Jun 10 10Y auction can pressure yields if demand is weak.","options_gamma_0dte_opex":"Medium: SPX 7500 and Nasdaq weakness are positioning-sensitive; actual dealer hedging not asserted.","macro_data_fed_repricing":"High: payroll surprise is current dominant driver before Jun 16-17 FOMC.","fx_intervention_carry_unwind":"Medium: USDJPY near/above 160 creates intervention/carry unwind risk; no intervention claimed.","commodity_shock":"Medium: Brent lower but still elevated; Middle East weekend gap risk remains.","earnings_ai_crowding":"Medium-high: AI leadership vulnerable to rates and valuation reset.","month_end_index_rebalance":"Low: not today's main driver; watch later June."},"trap_risks":["Strong jobs treated as bullish when market is focused on Fed tightening.","Low VIX interpreted as safety despite event/rates risk.","Oil decline interpreted as full inflation relief.","Assuming actual dealer/CTA activity without direct evidence."],"watch_levels":[{"asset":"US 10Y","level":"4.54%/4.60%","meaning":"valuation pressure threshold","basis":"AP post-NFP level and psychological break"},{"asset":"US 2Y","level":"4.16%","meaning":"Fed repricing confirmation","basis":"AP post-NFP level"},{"asset":"SPX","level":"7584/7537/7500","meaning":"prior close/open/psychological support","basis":"AP index levels"},{"asset":"Nasdaq Composite","level":"26831/26537","meaning":"tech concentration risk","basis":"AP index levels"},{"asset":"USDJPY","level":"160","meaning":"intervention/carry risk line","basis":"Reuters"},{"asset":"Brent","level":"$95/$93.50/$90","meaning":"inflation relief vs shock risk","basis":"AP"},{"asset":"VIX futures","level":"20","meaning":"event-volatility threshold","basis":"Investing.com VIX futures"}],"next_24_72h_scenarios":[{"scenario":"Base","trigger":"10Y 4.50%-4.60%, SPX holds 7500s, oil stable","market_reaction":"choppy tech-led digestion; VIX sticky","hrsb_relevance":"monitor SPX/VIX/rates link","confidence":"medium"},{"scenario":"Bull","trigger":"10Y below 4.50%, USD weaker, Nasdaq recovers","market_reaction":"risk stabilizes and VIX eases","hrsb_relevance":"lower hedge-pressure input","confidence":"medium_low"},{"scenario":"Bear","trigger":"10Y above 4.60%, USDJPY above 160, Nasdaq lower, oil/geopolitical shock","market_reaction":"SPX 7500 break risk, VIX futures up, credit watch","hrsb_relevance":"possible defend-risk input, final decision downstream","confidence":"medium"}],"hrsb_portfolio_relevance_without_private_data":{"vix_portfolio_impact_channels":["SPX level breaks can lift short-dated implied volatility.","Rates shocks can pressure high-duration equities and raise hedge demand.","Weekend geopolitical oil gaps can steepen event-vol demand."],"spx_vix_rates_credit_links":["2Y/10Y repricing -> Nasdaq/SPX pressure -> VIX response.","If credit ETFs/spreads widen, move shifts from valuation shock to stress regime; not confirmed yet."],"what_to_feed_into_final_hrsb":["primary_driver=rates/Fed repricing","risk_mode=risk_off","watch SPX 7500, 10Y 4.60, USDJPY 160, VIX futures 20","credit data gap"]},"data_sources":[{"id":"BLS-EMP-2026-06-05","title":"Employment Situation - May 2026","publisher":"U.S. Bureau of Labor Statistics","url":"https://www.bls.gov/news.release/archives/empsit_06052026.htm","published_at":"2026-06-05T12:30:00Z"},{"id":"AP-2026-06-05-STOCKS","title":"Stocks slump as Big Tech sinks and a strong May jobs report boosts odds for higher interest rates","publisher":"AP","url":"https://apnews.com/article/b5e10863b81cb1d6399f688ad8885c46","published_at":"2026-06-05T17:03:34Z"},{"id":"AP-2026-06-04-STOCKS","title":"How major US stock indexes fared Thursday 6/4/2026","publisher":"AP","url":"https://apnews.com/article/a04eae4ada711aef2b629f3895de2376","published_at":"2026-06-04T20:22:55Z"},{"id":"REUTERS-FX-2026-06-05","title":"Dollar firms after strong US jobs data, pushes yen through 160 level","publisher":"Reuters via Yahoo Finance","url":"https://finance.yahoo.com/markets/currencies/articles/yen-pinned-near-intervention-zone-084810126.html","published_at":"2026-06-05T14:11:00Z"},{"id":"REUTERS-GOLD-2026-06-05","title":"Gold falls over 2% as robust US jobs data cements bets on higher rates","publisher":"Reuters via MarketScreener","url":"https://uk.marketscreener.com/news/gold-heads-for-weekly-loss-on-fading-middle-east-peace-hopes-ce7f5ddddc8ef626","published_at":"2026-06-05T14:02:00Z"},{"id":"REUTERS-EUROPE-2026-06-05","title":"European shares slip as Mideast tensions linger; tech stocks pause rally","publisher":"Reuters via Investing.com","url":"https://za.investing.com/news/stock-market-news/european-shares-slip-as-mideast-tensions-linger-tech-stocks-pause-rally-4315616","published_at":"2026-06-05T09:29:00Z"},{"id":"REUTERS-ASIA-2026-06-05","title":"Stocks drop as AI rally pauses, US-Iran peace talks stall","publisher":"Reuters via Investing.com","url":"https://www.investing.com/news/stock-market-news/stocks-drop-as-ai-rally-pauses-usiran-peace-talks-stall-4727805","published_at":"2026-06-05T00:00:00Z"},{"id":"TREASURY-QRA-2026-04-29","title":"Quarterly Refunding Statement","publisher":"U.S. Treasury","url":"https://home.treasury.gov/news/press-releases/sb0489","published_at":"2026-04-29T12:00:00Z"},{"id":"TREASURY-AUCTION-PATTERN","title":"When Auctions Happen","publisher":"TreasuryDirect","url":"https://treasuryauctions.gov/auctions/when-auctions-happen/","published_at":"current"},{"id":"CME-10Y-AUCTION","title":"US: 10-Yr Note Auction","publisher":"CME/Econoday","url":"https://www.cmegroup.com/education/events/econoday/684173","published_at":"current"},{"id":"EIA-WPSR-2026-06-03","title":"EIA Weekly Petroleum Data Recap","publisher":"StoneX summary of EIA WPSR","url":"https://www.stonex.com/en/insights/eia-weekly-petroleum-data-recap-2026-06-03/","published_at":"2026-06-03T14:55:00Z"},{"id":"CBOE-OPEX-2026","title":"2026 Cboe Options Expiration Calendar","publisher":"Cboe","url":"https://cdn.cboe.com/resources/options/Cboe2026OPTIONSCalendar.pdf","published_at":"2026"},{"id":"INVESTING-VIX-FUT-2026-06-05","title":"S&P 500 VIX Futures - Jun 2026","publisher":"Investing.com","url":"https://www.investing.com/indices/us-spx-vix-futures?cid=8884","published_at":"2026-06-05T19:35:43Z"}],"data_gaps":["Real-time spot VIX/VVIX and SPX gamma not fully verified.","Credit spreads/HYG/LQD real-time confirmation unavailable in sourced set.","BTC not a major driver and not deeply sourced.","No direct evidence of actual dealer/CTA/macro fund trading; described only as structural risk."],"confidence_summary":{"overall":"medium","high_confidence_points":["BLS labor data","AP index/yield reaction","Treasury QRA supply sizes"],"medium_confidence_points":["Fed repricing interpretation","FX intervention risk around USDJPY 160","AI crowding and valuation risk"],"low_confidence_points":["Dealer gamma/0DTE actual flow","CTA thresholds","real-time credit stress"]}}
+{
+  "schema_version": "2.0",
+  "report_type": "HRSB_Web_Driver_Summary",
+  "generated_at_utc": "2026-06-05T18:31:24Z",
+  "coverage_window": {
+    "start_utc": "2026-06-04T00:00:00Z",
+    "end_utc": "2026-06-05T18:31:24Z",
+    "description": "昨日から現在までの公開市場ドライバー調査"
+  },
+  "executive_driver_summary": {
+    "market_sentiment": "Neutral to risk-off; strong jobs are being priced as tighter financial conditions rather than simple growth optimism.",
+    "risk_mode": "neutral / risk_off",
+    "primary_driver": "US payroll upside surprise causing hawkish Fed repricing, higher US yields and a stronger dollar.",
+    "secondary_drivers": [
+      "AI/semiconductor valuation and crowded-positioning risk",
+      "Middle East oil/inflation risk",
+      "USD/JPY 160 intervention-watch market-structure risk",
+      "CPI, Treasury auctions and FOMC event risk"
+    ],
+    "what_changed_from_yesterday": "The market shifted from jobs-data wait-and-see to rates/Fed repricing after May NFP rose 172k and wages rose 3.4% y/y.",
+    "largest_trap": "Assuming strong employment is automatically bullish for equities; the market is treating it as a higher-for-longer or rate-hike risk.",
+    "hrsb_relevance": "Rates, SPX, VIX, dollar and credit channels can affect hedge need; final HRSB action requires private portfolio data downstream."
+  },
+  "market_lens": {
+    "primary_market_subject": "Rates-driven market / Fed repricing",
+    "secondary_market_subjects": [
+      "AI and semiconductor duration sensitivity",
+      "Oil and Middle East inflation risk",
+      "USD/JPY intervention-watch risk"
+    ],
+    "market_view": "The market is focused less on the jobs headline itself and more on whether it removes the Fed easing path and reintroduces hike risk.",
+    "change_from_previous_session": "Yesterday was event-waiting; today became a rates and dollar shock after the employment report.",
+    "five_watch_points": [
+      {
+        "priority": 1,
+        "indicator": "US 10Y yield",
+        "watch_level": "4.54%-4.60%",
+        "meaning": "Equity valuation compression risk"
+      },
+      {
+        "priority": 2,
+        "indicator": "US 2Y yield",
+        "watch_level": "4.15%-4.20%",
+        "meaning": "Fed repricing and hike-risk confirmation"
+      },
+      {
+        "priority": 3,
+        "indicator": "SPX",
+        "watch_level": "around 7500",
+        "meaning": "Psychological and short-dated hedging level; approximate"
+      },
+      {
+        "priority": 4,
+        "indicator": "Nasdaq / AI semis",
+        "watch_level": "post-NFP low",
+        "meaning": "Crowded growth-duration stress"
+      },
+      {
+        "priority": 5,
+        "indicator": "USD/JPY and VIX",
+        "watch_level": "USD/JPY 160; VIX 16-20 area",
+        "meaning": "FX intervention-watch and volatility reawakening risk"
+      }
+    ],
+    "causal_chain": [
+      "BLS reports May NFP +172k with unemployment at 4.3%",
+      "Fed cut expectations fade and hike-risk pricing rises",
+      "US 2Y/10Y yields and dollar rise",
+      "Nasdaq, semiconductors and gold face pressure",
+      "SPX/VIX/rates/credit channels become the HRSB monitoring focus"
+    ],
+    "confirmed_facts": [
+      "BLS reported May nonfarm payrolls +172,000 and unemployment unchanged at 4.3%.",
+      "BLS reported average hourly earnings +0.3% m/m and +3.4% y/y.",
+      "Reuters/Axios reported US 2Y near 4.15%-4.16% and 10Y near 4.54% after the jobs report.",
+      "Axios reported CME FedWatch odds of at least one rate hike by year-end rose to 67% from 45% the prior week.",
+      "Reuters reported the dollar firmed and USD/JPY tested around or above 160.",
+      "Reuters reported gold fell more than 2% after the strong payrolls report."
+    ],
+    "interpretations": [
+      "The dominant transmission channel is rates/Fed repricing, not a generic news selloff.",
+      "AI and semiconductor weakness is likely a duration/crowding response to higher yields.",
+      "USD/JPY around 160 should be treated as intervention-watch and carry-unwind risk, not proof of intervention.",
+      "Low or moderate VIX does not eliminate event-gap risk before CPI and FOMC."
+    ],
+    "risk_scenarios": [
+      {
+        "scenario": "risk_on",
+        "condition": "US 10Y falls below 4.50% and Nasdaq recovers the post-NFP loss",
+        "expected_reaction": "SPX rebound, VIX softening, gold stabilizes"
+      },
+      {
+        "scenario": "neutral",
+        "condition": "US 10Y stays 4.50%-4.60% and SPX holds near 7500",
+        "expected_reaction": "CPI/FOMC waiting range with short-dated volatility"
+      },
+      {
+        "scenario": "risk_off",
+        "condition": "US 2Y exceeds 4.20%, US 10Y exceeds 4.60%, USD/JPY stays above 160 and semis keep falling",
+        "expected_reaction": "Nasdaq-led selloff, higher VIX, credit check required"
+      }
+    ],
+    "hiro_attention_points": [
+      "Watch US 2Y, US 10Y, dollar, VIX and Nasdaq together.",
+      "Do not treat strong jobs as automatically bullish for equities.",
+      "Prepare for CPI on 2026-06-10 and FOMC on 2026-06-16/17 as the next repricing gates."
+    ]
+  },
+  "global_market_update": {
+    "fx": [
+      {
+        "asset": "USD",
+        "update": "Dollar rose after strong US jobs data.",
+        "source": "Reuters via Yahoo Finance"
+      },
+      {
+        "asset": "USD/JPY",
+        "update": "Tested around/above 160, increasing intervention-watch risk.",
+        "source": "Reuters via Yahoo Finance"
+      },
+      {
+        "asset": "EUR/USD",
+        "update": "Reported lower near 1.1575 after US jobs data.",
+        "source": "Reuters via Yahoo Finance"
+      }
+    ],
+    "equity": {
+      "us": [
+        "S&P 500 and Nasdaq fell after the strong payrolls report; Nasdaq/semiconductors were more sensitive to higher yields."
+      ],
+      "europe": [
+        "European risk tone was cautious with US yields, Middle East risk and tech leadership in focus."
+      ],
+      "japan": [
+        "Japan risk is tied to AI/semiconductor momentum and USD/JPY intervention-watch around 160."
+      ]
+    },
+    "rates_and_bonds": [
+      "US 2Y rose to about 4.15%-4.16% after the jobs report.",
+      "US 10Y rose to about 4.54% after the jobs report.",
+      "TreasuryDirect schedule indicates 10Y and 30Y securities are auctioned during the second week in relevant months; auction results are not yet available."
+    ],
+    "commodities": [
+      "Gold fell more than 2% as strong payrolls boosted higher-rate expectations.",
+      "Oil remains mixed but geopolitically sensitive due to Middle East conflict, US-Iran talks, OPEC+ supply expectations and Hormuz constraints."
+    ],
+    "crypto": [
+      "Crypto was not identified as a primary HRSB driver due to insufficient reliable current-source confirmation."
+    ],
+    "central_bank_policy_expectations": [
+      "Axios reported CME FedWatch odds of at least one year-end rate hike rose to 67% from 45% last week.",
+      "Federal Reserve calendar shows the next FOMC meeting on 2026-06-16/17."
+    ],
+    "critical_information": [
+      "BLS CPI for May 2026 is scheduled for 2026-06-10 at 08:30 ET.",
+      "The jobs report makes CPI the next major confirmation or reversal point for rates and equities."
+    ],
+    "source_quality_notes": [
+      "Employment and event dates use primary sources: BLS, Federal Reserve, TreasuryDirect.",
+      "Market levels are source-reported and may be stale intraday.",
+      "Credit spreads, VVIX, spot dealer gamma and CTA thresholds are data gaps."
+    ]
+  },
+  "headline_vs_actual_driver": [
+    {
+      "headline_explanation": "Strong jobs report",
+      "actual_market_driver": "Hawkish Fed repricing and higher US yields",
+      "evidence": "BLS +172k NFP; Reuters/Axios reported higher 2Y/10Y yields; Axios reported higher year-end hike odds.",
+      "confidence": "High"
+    },
+    {
+      "headline_explanation": "AI/semiconductor selloff",
+      "actual_market_driver": "Rate-sensitive high-PER and crowded-duration pressure",
+      "evidence": "Reuters reported S&P/Nasdaq weakness and chip-stock pressure after strong payrolls.",
+      "confidence": "Medium-High"
+    },
+    {
+      "headline_explanation": "Dollar/yen move is only dollar strength",
+      "actual_market_driver": "Rate-differential plus intervention-watch and carry-unwind market-structure risk",
+      "evidence": "Reuters reported USD/JPY around/above 160 and official-warning context.",
+      "confidence": "Medium"
+    }
+  ],
+  "cross_asset_confirmation": [
+    {
+      "asset": "Equity",
+      "direction": "SPX down, Nasdaq down more",
+      "confirmation": "Confirms rates-duration shock",
+      "notes": "Not enough evidence to call it credit-stress driven."
+    },
+    {
+      "asset": "Rates",
+      "direction": "2Y and 10Y yields higher",
+      "confirmation": "Strongly confirms primary driver",
+      "notes": "2Y is the cleanest Fed repricing channel."
+    },
+    {
+      "asset": "FX",
+      "direction": "USD higher, JPY weaker",
+      "confirmation": "Confirms rates-dollar channel",
+      "notes": "USD/JPY 160 is intervention-watch risk."
+    },
+    {
+      "asset": "Commodities",
+      "direction": "Gold lower; oil mixed/high-risk",
+      "confirmation": "Mixed",
+      "notes": "Gold confirms dollar/yield pressure; oil remains inflation-tail risk."
+    },
+    {
+      "asset": "Options / Volatility",
+      "direction": "Volatility reawakening risk",
+      "confirmation": "Partial confirmation",
+      "notes": "Spot VIX/VVIX/gamma not directly verified."
+    },
+    {
+      "asset": "Credit",
+      "direction": "Data gap",
+      "confirmation": "Not confirmed",
+      "notes": "Need HYG/LQD/CDX/OAS checks before calling credit stress."
+    }
+  ],
+  "flow_risk_map": {
+    "treasury_auction_bond_supply": "Medium: second-week Treasury auctions can test demand after the yield jump; auction statistics not yet available.",
+    "options_gamma_0dte_opex": "Medium-low: SPX/XSP weeklies expire each business day, so short-dated hedging can amplify moves near psychological levels; no direct dealer-flow proof.",
+    "macro_data_fed_repricing": "High: payroll upside moved yields and hike odds; CPI is the next confirmation/reversal event.",
+    "fx_intervention_carry_unwind": "Medium-high: USD/JPY around 160 creates intervention-watch and carry-unwind risk; no actual intervention claimed.",
+    "commodity_shock": "Medium: Middle East, Hormuz and OPEC+ headlines can reprice oil and inflation expectations.",
+    "earnings_ai_crowding": "Medium: AI/semiconductor leadership is sensitive to higher yields and crowding risk.",
+    "month_end_index_rebalance": "Low now; revisit for June OPEX and quarter-end."
+  },
+  "trap_risks": [
+    "Strong jobs may be bearish when it raises the expected policy-rate path.",
+    "Low or moderate VIX does not mean event-gap risk is gone before CPI/FOMC.",
+    "Oil pullbacks do not erase Middle East inflation-tail risk.",
+    "USD/JPY 160 can reverse quickly on intervention headlines or carry unwind."
+  ],
+  "watch_levels": [
+    {
+      "asset": "US 2Y yield",
+      "level": "4.15%-4.20%",
+      "meaning": "Fed repricing and hike-risk continuation",
+      "basis": "Reuters/Axios source-reported 4.15%-4.16%; 4.20% is psychological/event threshold."
+    },
+    {
+      "asset": "US 10Y yield",
+      "level": "4.54%-4.60%",
+      "meaning": "Equity duration and valuation pressure",
+      "basis": "Reuters source-reported near 4.54%; 4.60% is approximate psychological resistance."
+    },
+    {
+      "asset": "SPX",
+      "level": "around 7500",
+      "meaning": "Psychological level and possible short-dated hedge-pressure area",
+      "basis": "Approximate psychological threshold; downstream HRSB technical data needed for precision."
+    },
+    {
+      "asset": "USD/JPY",
+      "level": "160",
+      "meaning": "Intervention-watch and carry-unwind risk",
+      "basis": "Reuters source-reported around/above 160 and official-warning context."
+    },
+    {
+      "asset": "CPI event",
+      "level": "2026-06-10 08:30 ET",
+      "meaning": "Next Fed repricing gate",
+      "basis": "BLS CPI release schedule."
+    },
+    {
+      "asset": "FOMC event",
+      "level": "2026-06-16/17",
+      "meaning": "Policy path confirmation",
+      "basis": "Federal Reserve FOMC calendar."
+    }
+  ],
+  "next_24_72h_scenarios": [
+    {
+      "scenario": "Base",
+      "trigger": "US 10Y holds 4.50%-4.60% and SPX/Nasdaq digest the NFP selloff",
+      "market_reaction": "Range trade into CPI with elevated rates sensitivity and moderate volatility risk.",
+      "hrsb_relevance": "Feed primary_driver, risk_mode, US2Y/US10Y, SPX and VIX data gaps into downstream HRSB.",
+      "confidence": "Medium"
+    },
+    {
+      "scenario": "Bull",
+      "trigger": "US 10Y falls below 4.50%, dollar stalls and Nasdaq recovers post-NFP losses",
+      "market_reaction": "Risk relief, lower VIX and stabilization in gold/AI leaders.",
+      "hrsb_relevance": "Treat as rates-shock digestion, not final action advice.",
+      "confidence": "Medium-Low"
+    },
+    {
+      "scenario": "Bear",
+      "trigger": "US 2Y above 4.20%, US 10Y above 4.60%, USD/JPY above 160 and semis keep falling",
+      "market_reaction": "Nasdaq-led risk-off, higher VIX and need to verify credit stress.",
+      "hrsb_relevance": "Escalate rates-credit-volatility links to downstream HRSB; no portfolio action decision here.",
+      "confidence": "Medium"
+    }
+  ],
+  "hrsb_portfolio_relevance_without_private_data": {
+    "vix_portfolio_impact_channels": [
+      "Higher yields can pressure SPX/Nasdaq and increase demand for equity hedges.",
+      "CPI/FOMC event gaps can steepen or invert parts of the volatility curve.",
+      "USD/JPY intervention-watch risk can trigger cross-asset volatility."
+    ],
+    "spx_vix_rates_credit_links": [
+      "US2Y/US10Y up -> growth-duration pressure -> SPX/Nasdaq down -> VIX up risk.",
+      "Oil/inflation up -> Fed repricing -> yields up -> credit-spread check required.",
+      "If credit spreads remain stable, selloff is more likely rates/valuation than credit stress."
+    ],
+    "what_to_feed_into_final_hrsb": [
+      "primary_driver: rates-driven Fed repricing after strong NFP",
+      "risk_mode: neutral / risk_off",
+      "watch US2Y 4.15%-4.20%, US10Y 4.54%-4.60%, SPX around 7500, USD/JPY 160",
+      "next events: CPI 2026-06-10, FOMC 2026-06-16/17, Treasury auctions",
+      "data gaps: spot VIX/VVIX, dealer gamma, CTA thresholds, credit spreads"
+    ]
+  },
+  "data_sources": [
+    {
+      "name": "BLS Employment Situation May 2026",
+      "url": "https://www.bls.gov/news.release/archives/empsit_06052026.htm"
+    },
+    {
+      "name": "BLS CPI Home / release schedule",
+      "url": "https://www.bls.gov/cpi/"
+    },
+    {
+      "name": "Federal Reserve FOMC calendar",
+      "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm"
+    },
+    {
+      "name": "TreasuryDirect auction schedule patterns",
+      "url": "https://www.treasuryauctions.gov/auctions/when-auctions-happen/"
+    },
+    {
+      "name": "Reuters via MarketScreener/Yahoo Finance on jobs, yields and equities",
+      "url": "https://uk.marketscreener.com/news/instant-view-strong-may-jobs-number-sends-yields-rate-expectations-higher-ce7f5dddd18bf52d"
+    },
+    {
+      "name": "Axios on FedWatch and yields",
+      "url": "https://www.axios.com/2026/06/05/interest-rates-warsh-inflation"
+    },
+    {
+      "name": "Reuters via Yahoo Finance on dollar and yen",
+      "url": "https://finance.yahoo.com/markets/currencies/articles/yen-pinned-near-intervention-zone-084810126.html"
+    },
+    {
+      "name": "Reuters via MarketScreener on gold",
+      "url": "https://uk.marketscreener.com/news/gold-heads-for-weekly-loss-on-fading-middle-east-peace-hopes-ce7f5ddddc8ef626"
+    },
+    {
+      "name": "Reuters via Investing.com/AU on oil",
+      "url": "https://au.investing.com/news/commodities-news/oil-little-changed-on-uncertainty-over-usiran-peace-deal-4473073"
+    },
+    {
+      "name": "Cboe 2026 options expiration calendar",
+      "url": "https://cdn.cboe.com/resources/options/Cboe2026OPTIONSCalendar.pdf"
+    }
+  ],
+  "data_gaps": [
+    "Spot VIX and VVIX not directly verified at generation time.",
+    "Dealer gamma, 0DTE live option flow and CTA/systematic thresholds not verified.",
+    "CDX/HY OAS/IG OAS and real-time credit-spread data not verified.",
+    "Copper, Bitcoin and exact Europe/Japan index levels not verified with strong current sources.",
+    "Treasury auction results such as tail, bid-to-cover, indirect/direct/dealer takedown are not yet available for future auctions."
+  ],
+  "confidence_summary": {
+    "overall": "medium",
+    "high_confidence_points": [
+      "BLS employment facts and wage data",
+      "CPI and FOMC scheduled dates",
+      "Rates/Fed repricing as the primary cross-asset driver"
+    ],
+    "medium_confidence_points": [
+      "AI/semiconductor weakness as a duration/crowding transmission channel",
+      "USD/JPY 160 as intervention-watch market-structure risk",
+      "Oil as an inflation-tail risk"
+    ],
+    "low_confidence_points": [
+      "Exact real-time spot VIX/VVIX and dealer gamma",
+      "Actual dealer, CTA or large-player trading activity",
+      "Credit stress without current CDX/OAS confirmation"
+    ]
+  }
+}
